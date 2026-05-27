@@ -1,5 +1,5 @@
 # SAV Solvers for Nonlinear Stiff String Models
-[DOI: 10.5281/zenodo.20413145](https://doi.org/10.5281/zenodo.20413145)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20413145.svg)](https://doi.org/10.5281/zenodo.20413145)
 
 MATLAB implementation of **Scalar Auxiliary Variable (SAV)** schemes for three geometrically nonlinear stiff string models, using Finite-Difference Time-Domain (FDTD) spatial discretisation. All solvers are fully explicit (Sherman–Morrison rank-1 update) and exactly conserve a discrete energy at every time step.
 
