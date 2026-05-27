@@ -178,4 +178,4 @@ European Union Horizon 2020 — grant **NEMUS-StG-950084**.
 
 ## License
 
-To be specified upon repository publication.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
