@@ -3,7 +3,7 @@
 
 MATLAB implementation of **Scalar Auxiliary Variable (SAV)** schemes for three geometrically nonlinear stiff string models, using Finite-Difference Time-Domain (FDTD) spatial discretisation. All solvers are fully explicit (Sherman–Morrison rank-1 update) and exactly conserve a discrete energy at every time step.
 
-> R. Russo, M. Ducceschi, S. Bilbao — *"Numerical convergence of the Scalar Auxiliary Variable method applied to nonlinear stiff string models"*, Journal of Nonlinear Science, 2025.
+> R. Russo, M. Ducceschi, S. Bilbao — *"Numerical convergence of the Scalar Auxiliary Variable method applied to nonlinear stiff string models"*, Nonlinear Dynamics, 2026.
 
 ---
 
@@ -160,7 +160,7 @@ Default values match the steel string used in the paper:
 ## Citation
 
 ```bibtex
-@article{russo2025sav,
+@article{russo2026sav,
   title   = {Numerical convergence of the {S}calar {A}uxiliary {V}ariable method
              applied to nonlinear stiff string models},
   author  = {Russo, Riccardo and Ducceschi, Michele and Bilbao, Stefan},
