@@ -20,6 +20,7 @@ nLinOn = true;              % enable nonlinearity
 play = false;               % set if to play at the end
 realTimeDraw = false;       % plot in real time
 computeEnergy = true;       % computes and plots the energy
+gridOn = true;         % plots grid of multiples of eps
 
 plotSpect = true;
 
@@ -165,7 +166,7 @@ for n=1:timeSamples
         g = - sqrt(E*Area*h^2/L)*Dxx*u;      
     
         b1 = g.'*uPrev;
-        b = lin - (k^2/4/h)*g*b1;% - k^2*g*psiPrev/h;
+        b = lin + (k^2/4/h)*g*b1 - k^2*g*psiPrev/h;
         chi = invM * (k^2/4/h)*g;
     
         csi = invM * b; 
